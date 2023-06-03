@@ -126,7 +126,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "Du lyckades! Gå hit och gör quizzet<3" : "Game over!";
+  var message = won ? "Du lyckades! Gå hit och gör quizzet<3 https://kahoot.it/challenge/04242238?challenge-id=98e9b2cb-0347-441d-95bf-0baf06e0c8cd_1685796484627 " : "Game over!";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
